@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM centos
 RUN apt-get update
 RUN DEBIAN_FRONTEND="noninteractive" apt-get install tzdata -y
 RUN apt-get install apache2 -y
